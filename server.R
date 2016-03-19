@@ -4,7 +4,7 @@ library(ggplot2)
 library(dplyr)
 library(reshape2)
 
-root.dir <- "~/code/cat_winner/Group 1/"
+root.dir <- "./"
 
 ####### Google
 
