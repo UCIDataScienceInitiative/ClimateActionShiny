@@ -8,7 +8,7 @@ shinyUI(
 
   sidebarLayout(
     sidebarPanel(
-      p("Welcome to our Shiny new app! Explore drought awareness, drougth index and water use in Califorinia."),
+      p("Welcome to our Shiny new app! Explore drought awareness, drought index and water use in Califorinia."),
       p("The vertical line indicates January 17, 2014 when a State of Emergency was proclaimed as a result of the drought."),
       p("The second plot shows the monthly water use in California from June 2014 through January 2016. Look at the second plot to see how these values relate to drought awareness as measured by Google search trends and state action."),
       h3("Public Awareness"),
