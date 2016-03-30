@@ -63,7 +63,7 @@ shinyServer(function(input, output) {
     
     output$water_use.plot <- renderPlot({
       ggplot(wu,aes_string(x="date",y="water_use"))+
-      geom_line(size=1)+
+      geom_bar(size=1, stat="identity")+
       labs(x= "Time", y = "Total Water Use (MGal/month) ")+
       geom_vline(xintercept = as.numeric(Emergency),linetype=4)+
       theme_bw()+
